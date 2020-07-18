@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <style>
+            
+
+            .grid-container {
+                display: grid;
+                grid-template-columns: auto auto auto ;                
+                background-color: #7bb0db;
+                padding: 20px;
+
+            }
+            .grid-container > div{
+                background-color: rgba(179, 67, 67, 0.8);
+                border: 5px solid rgba(0, 0, 0, 0.8);
+                padding: 50px 0;
+                font-size: 30px;
+                text-align: center;
+            }
+            .it1 {
+                grid-column-start: 1;
+                grid-column-end: 3; 
+
+            }
+
+        </style>
+        
+    </head>
+    <body>
+       <h1>Grid Layout</h1>
+       <p>This grid layout contains six columns and three rows:</p>
+       <div class="grid-container">
+        
+        <div class="it1">1</div>
+        <div class="it2">2</div>
+        <div class="it3">3</div>
+        <div class="it4">4</div>
+       <div class="it5">5</div>
+       <div class="it6">6</div>
+       <div class="it7">7</div>
+       <div class="it8">8</div>
+       <div class="it9">9</div>
+    </div>
+    </body>
+</html>
